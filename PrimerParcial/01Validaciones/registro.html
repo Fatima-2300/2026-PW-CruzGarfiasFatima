@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrar Asistencia - CECyT 9</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header> <a href="./detalle.html">Volver al detalle del Taller</a></header>
+
+  <main>
+    <form class="Formulario-registro" id="Formulario-registro" novalidate>
+      <h1>Formulario de Registro de Assitencia</h1>
+
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" id="nombre" name="nombre" required> 
+      <span class="error" id="error-nombre"></span>
+
+      <label for="boleta">Númeo de Boleta:</label>
+      <input type="text" id="boleta" name="boleta" required>
+      <span class="error" id="error-boleta"></span>
+
+      <label for="Fecha">Fecha de Registro (DD/MM/AAAA)</label>
+      <input type="text" id="Fecha" name="Fecha" placeholder="DD/MM/AAAA" required>
+      <span class="error" id="error-fecha"></span>
+
+      <button type="submit">Resgistrar Asistencia</button>
+      <p class="mensaje-exito" id="mensaje-exito"></p>
+    </form>
+  </main>
+  <script src="./js/validaciones.js"></script>
+</body>
+</html>

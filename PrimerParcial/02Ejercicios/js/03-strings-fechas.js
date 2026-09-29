@@ -4,16 +4,16 @@
 
 const entrada = '  María López  ';
 
-// TODO: trim — imprime `entrada` sin espacios sobrantes
+// TODO: trim — imprime entrada sin espacios sobrantes
 
-// TODO: split — parte el resultado del trim en un arreglo `partes`, separado por espacio
+// TODO: split — parte el resultado del trim en un arreglo partes, separado por espacio
 
 // TODO: includes — imprime si 'correo@cecyt9.ipn.mx' contiene '@'
 
 // TODO: replace y replaceAll — con '05/09/2026', reemplaza '/' por '-'
 //       primero con replace (una sola vez) y luego con replaceAll (todas)
 
-// TODO: template literals — usando `nombre = 'María'` y `cupo = 25`, imprime
+// TODO: template literals — usando nombre = 'María' y cupo = 25, imprime
 //       "María se inscribió en un taller con cupo para 25 personas."
 
 // TODO: Date — completa esta función para construir un objeto Date a partir
@@ -23,4 +23,4 @@ function fechaDesdeTexto(textoFecha) {
 }
 
 // TODO: usa fechaDesdeTexto('05/09/2026'), imprime su toISOString() y su
-// getDay(); luego calcula cuántos días de diferencia hay contra `new Date()`
+// getDay(); luego calcula cuántos días de diferencia hay contra new Date()
